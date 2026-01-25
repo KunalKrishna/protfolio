@@ -8,7 +8,8 @@ export const content = {
         // subheadline: "I am a Full-Stack Java Developer with a background in building scalable systems for both product and service-based companies. Currently pursuing my MS in Computer Science at UNC Chapel Hill (graduating May 2026), I combine years of industry experience with advanced academic research in algorithms and distributed systems",
         subheadline: "I am a Full-Stack Java Developer with professional experience in agile environments. Currently an MS CS student at UNC Chapel Hill (Class of '26). Passionate about Backend Architecture, Cloud Computing and GenAI. Actively seeking full-time opportunities.",
         ctaText: "Download Resume",
-        ctaLink: "/Kunal_Krishna_Java_Backend_UNC_2026.pdf",
+        // ctaLink: "/Kunal_Krishna_Java_Backend_UNC_2026.pdf",
+        ctaLink: "https://github.com/KunalKrishna/protfolio/blob/main/public/Kunal_Krishna_Java_Backend_UNC_2026.pdf",
         socials: [
             {
                 name: "GitHub",
