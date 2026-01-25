@@ -1,0 +1,56 @@
+import React from "react";
+import { motion } from "framer-motion";
+import { content } from "../data/content";
+import { Download } from "lucide-react";
+
+const Hero = () => {
+    const { hero } = content;
+
+    return (
+        <section id="about" className="min-h-screen flex items-center justify-center pt-20">
+            <div className="max-w-4xl mx-auto px-6 text-center">
+                <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.5 }}
+                >
+                    {/* <h2 className="text-unc-primary font-medium text-lg mb-4 tracking-wide uppercase">
+                        Software Engineer
+                    </h2> */}
+                    <h1 className="text-5xl md:text-7xl font-bold text-unc-white mb-6 leading-tight">
+                        {hero.headline}
+                    </h1>
+                    <p className="text-xl text-unc-white/70 mb-10 max-w-2xl mx-auto">
+                        {hero.subheadline}
+                    </p>
+
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+                        <a
+                            href={hero.ctaLink}
+                            className="bg-unc-secondary hover:bg-unc-primary text-white px-8 py-3 rounded-full font-semibold flex items-center gap-2 transition-all transform hover:scale-105 shadow-lg shadow-unc-secondary/20"
+                        >
+                            <Download size={20} />
+                            {hero.ctaText}
+                        </a>
+                        <div className="flex gap-4">
+                            {hero.socials.map((social) => (
+                                <a
+                                    key={social.name}
+                                    href={social.url}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="p-3 bg-unc-white/5 rounded-full text-unc-white hover:text-unc-primary hover:bg-unc-white/10 transition-all border border-unc-white/10"
+                                    aria-label={social.name}
+                                >
+                                    <social.icon size={20} />
+                                </a>
+                            ))}
+                        </div>
+                    </div>
+                </motion.div>
+            </div>
+        </section>
+    );
+};
+
+export default Hero;
