@@ -33,10 +33,12 @@ const Navbar = () => {
             <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
                 {/* Logo */}
                 <a
-                    href="#"
+                    href="https://www.linkedin.com/in/krish85"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-2xl font-bold text-unc-white tracking-tight"
                 >
-                    Kunal<span className="text-unc-primary">Krishna</span>
+                    Kunal<span className="text-unc-primary" style={{ color: "#007FAE" }}>Krishna</span>
                 </a>
 
                 {/* Desktop Menu */}

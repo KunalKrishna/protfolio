@@ -6,7 +6,7 @@
   --color-unc-navy: #13294B;
   --color-unc-black: #151515;
   --color-unc-white: #FFFFFF;
-  
+
   --font-sans: 'Inter', system-ui, sans-serif;
 }
 
@@ -17,7 +17,8 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #13294B; /* UNC Navy Background */
+  background-color: #13294B;
+  /* UNC Navy Background */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -27,17 +28,18 @@
 
 a {
   font-weight: 500;
-  color: #4B9CD3; /* UNC Primary */
+  color: #4B9CD3;
+  /* UNC Primary */
   text-decoration: inherit;
 }
+
 a:hover {
-  color: #007FAE; /* UNC Secondary */
+  color: #007FAE;
+  /* UNC Secondary */
 }
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -58,23 +60,12 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #4B9CD3;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
 }

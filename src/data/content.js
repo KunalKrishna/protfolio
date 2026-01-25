@@ -1,4 +1,5 @@
 import { Github, Linkedin, Mail, FileText } from "lucide-react";
+import leetCodeIcon from "../assets/favicon_LC.jpg";
 
 export const content = {
     hero: {
@@ -16,7 +17,12 @@ export const content = {
             {
                 name: "LinkedIn",
                 icon: Linkedin,
-                url: "www.linkedin.com/in/krish85",
+                url: "https://www.linkedin.com/in/krish85",
+            },
+            {
+                name: "LeetCode",
+                icon: leetCodeIcon,
+                url: "https://leetcode.com/u/tHeVaGaBonD85/",
             },
             {
                 name: "Email",

@@ -42,10 +42,28 @@ const Hero = () => {
                                     className="p-3 bg-unc-white/5 rounded-full text-unc-white hover:text-unc-primary hover:bg-unc-white/10 transition-all border border-unc-white/10"
                                     aria-label={social.name}
                                 >
-                                    <social.icon size={20} />
+                                    {typeof social.icon === "string" ? (
+                                        <img src={social.icon} alt={social.name} className="w-5 h-5 rounded-full object-cover" />
+                                    ) : (
+                                        <social.icon size={20} />
+                                    )}
                                 </a>
                             ))}
                         </div>
+                    </div>
+
+                    <div className="mt-10 flex justify-center">
+                        <a
+                            href="https://leetcode.com/u/tHeVaGaBonD85/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="hover:scale-105 transition-transform"
+                        >
+                            <img
+                                src="https://leetcode-status.vercel.app/api/card/tHeVaGaBonD85?theme=neon&gradient&gradient_start=%236366F1&gradient_end=%23A855F7&logo=true&custom_title=tHeVaGaBonD85"
+                                alt="LeetCode Status"
+                            />
+                        </a>
                     </div>
                 </motion.div>
             </div>
