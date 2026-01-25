@@ -195,7 +195,8 @@ export const content = {
             url: "https://bloom-jackfruit-f8f.notion.site/DAG-Directed-Acyclic-Graph-1d8d32fa6ba880e7aea2d3eb59ad46e1?pvs=74",
             date: "2025-04-26",
             description: "A mutually unreachable pair (s,t) can exist if and only if there exists at least one topological level with at least two nodes.",
-            image: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=1200"
+            // image: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=1200"
+            image: "https://bloom-jackfruit-f8f.notion.site/image/attachment%3A7ac72fa4-f55b-45d0-9d3d-192141b79d32%3Ae315f81b-1adf-43ca-910a-51211cd2f2ef.png?table=block&id=1d9d32fa-6ba8-8093-bdaf-c70654d06570&spaceId=e99e98da-0823-44b6-92d3-ebb3213c4efd&width=860&userId=&cache=v2"
         },
         {
             title: "Mastering Power Set Generation: A Deep Dive into Recursion",
@@ -211,5 +212,27 @@ export const content = {
             description: "A key requirement for thread safety and immutability.",
             image: "https://blogger.googleusercontent.com/img/a/AVvXsEgCd3RlsgPQ8d0-ool94O1dUC0w-xBziSy5teBzbcrbxtoaVqEsvqVnOTZ7yXSa7m5BOL01MHb6C3qmNoq1esOnCAu4gWZAxy3BfF5BbEyDtpj48j4S1L5Viqi4FWyvyk8wYZGOUcm2UCw7y7ID5_Ymt6V9PMMvPZhDTaANXoDgvCPnZiErF0rPLnujuHw"
         }
-    ]
+    ],
+    contact: {
+        title: "Get In Touch",
+        email: "kk85@cs.unc.edu",
+        location: "Chapel Hill, NC (Open to Relocation)",
+        socials: [
+            {
+                name: "LinkedIn",
+                icon: Linkedin,
+                url: "https://www.linkedin.com/in/krish85",
+            },
+            {
+                name: "GitHub",
+                icon: Github,
+                url: "https://github.com/KunalKrishna",
+            },
+            {
+                name: "LeetCode",
+                icon: leetCodeIcon,
+                url: "https://leetcode.com/u/tHeVaGaBonD85/",
+            }
+        ]
+    }
 };
