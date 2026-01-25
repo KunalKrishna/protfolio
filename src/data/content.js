@@ -1,5 +1,6 @@
 import { Github, Linkedin, Mail, FileText } from "lucide-react";
 import leetCodeIcon from "../assets/favicon_LC.jpg";
+import { line } from "framer-motion/client";
 
 export const content = {
     hero: {
@@ -7,7 +8,7 @@ export const content = {
         // subheadline: "I am a Full-Stack Java Developer with a background in building scalable systems for both product and service-based companies. Currently pursuing my MS in Computer Science at UNC Chapel Hill (graduating May 2026), I combine years of industry experience with advanced academic research in algorithms and distributed systems",
         subheadline: "I am a Full-Stack Java Developer with professional experience in agile environments. Currently an MS CS student at UNC Chapel Hill (Class of '26). Passionate about Backend Architecture, Cloud Computing and GenAI. Actively seeking full-time opportunities.",
         ctaText: "Download Resume",
-        ctaLink: "/resume.pdf",
+        ctaLink: "/Kunal_Krishna_Java_Backend_UNC_2026.pdf",
         socials: [
             {
                 name: "GitHub",
@@ -101,6 +102,22 @@ export const content = {
             }
         ]
     },
+    // 7-line :
+    // Languages: Java (8/11/17+), Python, SQL, JavaScript 
+    // Backend & Frameworks: Spring Boot (MVC, JPA, Security, AI), Hibernate / ORM, REST APIs, Node.js, J2EE 
+    // Cloud (AWS): Lambda & API Gateway, EC2 & S3, RDS & DynamoDB, IAM & CloudWatch, Transcribe 
+    // Generative AI: RAG Architecture, LLM Integration, Vector Databases (Pinecone), Prompt Engineering 
+    // Databases: MySQL, MongoDB, DynamoDB, Pinecone  
+    // DevOps & Tools: Docker, Kubernetes(basic), CI/CD (Jenkins, GitHub Actions), Git, Maven & Gradle 
+    // Frontend: React.js, Angular, HTML5 & CSS3, JSON/XML
+
+    // 6-line
+    // Languages: Java (8/11/17+), Python, SQL, JavaScript 
+    // Backend & Frameworks: Spring Boot (MVC, JPA, Security, AI), Hibernate / ORM, REST APIs, Node.js, J2EE 
+    // Cloud (AWS) & DevOps: AWS (Lambda, API Gateway, EC2, S3, IAM), Docker, Kubernetes, CI/CD, Git 
+    // Generative AI: RAG Architecture, LLM Integration, Vector Databases (Pinecone), Prompt Engineering 
+    // Databases: MySQL, MongoDB, DynamoDB, Pinecone  
+    // Frontend: React.js, Angular, HTML5 & CSS3, JSON/XML 
     projects: [
         {
             title: "MatchWise – Intelligent & stable TA/RA allocation system for students & professors",

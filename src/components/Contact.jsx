@@ -63,7 +63,7 @@ const Contact = () => {
                     {/* Resume Button */}
                     <div className="mt-6">
                         <a
-                            href="/resume.pdf"
+                            href="/Kunal_Krishna_Java_Backend_UNC_2026.pdf"
                             className="bg-unc-secondary hover:bg-unc-primary text-white px-6 py-2.5 rounded-full font-semibold flex items-center gap-2 transition-all transform hover:scale-105 shadow-lg shadow-unc-secondary/20 text-sm"
                         >
                             <Download size={18} />
