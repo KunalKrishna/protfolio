@@ -33,8 +33,18 @@ const Blog = () => {
                                 transition={{ delay: index * 0.1 }}
                                 className="bg-unc-white/5 p-6 rounded-xl border border-unc-white/5 hover:border-unc-primary/30 group transition-all flex flex-col md:flex-row gap-6 items-start md:items-center"
                             >
-                                <div className="shrink-0 p-4 bg-unc-navy rounded-lg border border-unc-white/10 group-hover:border-unc-primary/50 transition-colors">
-                                    <BookOpen className="text-unc-primary" size={24} />
+                                <div className="shrink-0 w-full md:w-48 h-48 md:h-32 bg-unc-navy rounded-lg border border-unc-white/10 overflow-hidden group-hover:border-unc-primary/50 transition-colors">
+                                    {post.image ? (
+                                        <img
+                                            src={post.image}
+                                            alt={post.title}
+                                            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                                        />
+                                    ) : (
+                                        <div className="w-full h-full flex items-center justify-center">
+                                            <BookOpen className="text-unc-primary" size={32} />
+                                        </div>
+                                    )}
                                 </div>
 
                                 <div className="flex-grow">

@@ -180,31 +180,36 @@ export const content = {
             title: "Comparison in Java : Comparator vs Comparable",
             url: "https://compator-vs-comparable.hashnode.dev/comparison-in-java-comparator-vs-comparable",
             date: "2026-01-2",
-            description: "Explaining why Java's comarision framework is so powerful and how to use it. Also shared TRiCK to memorize for beginners."
+            description: "Explaining why Java's comarision framework is so powerful and how to use it. Also shared TRiCK to memorize for beginners.",
+            image: "https://cdn.hashnode.com/res/hashnode/image/upload/v1769346120093/7a847e43-e9cc-4153-9dbb-6af816d92760.png"
         },
         {
             title: "Leetcode 5 — Longetst Palindromic Substring",
             url: "https://medium.com/@kunalkrishna85/leetcode-5-longetst-palindromic-substring-2d1c3408a162",
             date: "2025-12-31",
-            description: "Discussed a bottom-up dynamic programming solution to popular string problem."
+            description: "Discussed a bottom-up dynamic programming solution to popular string problem.",
+            image: "https://miro.medium.com/v2/resize:fit:464/format:webp/1*e_TlGhPex_1zyi9VvWTjsg.png"
         },
         {
             title: "Directed Acyclic Graph : A unique perspective",
             url: "https://bloom-jackfruit-f8f.notion.site/DAG-Directed-Acyclic-Graph-1d8d32fa6ba880e7aea2d3eb59ad46e1?pvs=74",
             date: "2025-04-26",
-            description: "A mutually unreachable pair (s,t) can exist if and only if there exists at least one topological level with at least two nodes."
+            description: "A mutually unreachable pair (s,t) can exist if and only if there exists at least one topological level with at least two nodes.",
+            image: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=1200"
         },
         {
             title: "Mastering Power Set Generation: A Deep Dive into Recursion",
             url: "https://bloom-jackfruit-f8f.notion.site/Mastering-Power-Set-Generation-A-Deep-Dive-into-Recursion-from-a-Java-programmer-s-perspective-18dd32fa6ba88004ab0fea0d1d989fed?pvs=74",
             date: "2025-02-19",
-            description: "Exploring two prominent ways of generating power set using recursion in Java."
+            description: "Exploring two prominent ways of generating power set using recursion in Java.",
+            image: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=1200"
         },
         {
             title: "Creating Immutable Custom Class in Java",
-            url: "https://abitmanipulator.blogspot.com/",
+            url: "https://abitmanipulator.blogspot.com/2023/11/creating-immutable-custom-class-in-java.html",
             date: "2023-11-28",
-            description: "A key requirement for thread safety and immutability."
+            description: "A key requirement for thread safety and immutability.",
+            image: "https://blogger.googleusercontent.com/img/a/AVvXsEgCd3RlsgPQ8d0-ool94O1dUC0w-xBziSy5teBzbcrbxtoaVqEsvqVnOTZ7yXSa7m5BOL01MHb6C3qmNoq1esOnCAu4gWZAxy3BfF5BbEyDtpj48j4S1L5Viqi4FWyvyk8wYZGOUcm2UCw7y7ID5_Ymt6V9PMMvPZhDTaANXoDgvCPnZiErF0rPLnujuHw"
         }
     ]
 };
