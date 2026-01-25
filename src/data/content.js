@@ -177,7 +177,7 @@ export const content = {
     ],
     blog: [
         {
-            title: "Comparison in Java : Comparator vs Comparable”",
+            title: "Comparison in Java : Comparator vs Comparable",
             url: "https://compator-vs-comparable.hashnode.dev/comparison-in-java-comparator-vs-comparable",
             date: "2026-01-2",
             description: "Explaining why Java's comarision framework is so powerful and how to use it. Also shared TRiCK to memorize for beginners."
@@ -189,13 +189,13 @@ export const content = {
             description: "Discussed a bottom-up dynamic programming solution to popular string problem."
         },
         {
-            title: "Directed Acyclic Graph : A unique perspective”",
+            title: "Directed Acyclic Graph : A unique perspective",
             url: "https://bloom-jackfruit-f8f.notion.site/DAG-Directed-Acyclic-Graph-1d8d32fa6ba880e7aea2d3eb59ad46e1?pvs=74",
             date: "2025-04-26",
             description: "A mutually unreachable pair (s,t) can exist if and only if there exists at least one topological level with at least two nodes."
         },
         {
-            title: "\"Mastering Power Set Generation: A Deep Dive into Recursion\”",
+            title: "Mastering Power Set Generation: A Deep Dive into Recursion",
             url: "https://bloom-jackfruit-f8f.notion.site/Mastering-Power-Set-Generation-A-Deep-Dive-into-Recursion-from-a-Java-programmer-s-perspective-18dd32fa6ba88004ab0fea0d1d989fed?pvs=74",
             date: "2025-02-19",
             description: "Exploring two prominent ways of generating power set using recursion in Java."
