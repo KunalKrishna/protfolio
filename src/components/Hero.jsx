@@ -35,6 +35,8 @@ const Hero = () => {
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
                         <a
                             href={hero.ctaLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="bg-unc-secondary hover:bg-unc-primary text-white px-6 py-2.5 text-sm rounded-full font-semibold flex items-center gap-2 transition-all transform hover:scale-105 shadow-lg shadow-unc-secondary/20"
                         >
                             <Download size={18} />
