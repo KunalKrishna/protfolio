@@ -10,6 +10,10 @@ export const content = {
         ctaText: "Download Resume",
         // ctaLink: "/Kunal_Krishna_Java_Backend_UNC_2026.pdf",
         ctaLink: "https://www.dropbox.com/scl/fi/vunj4cgyncfezvynxiww6/KK-SDE-Resume-v2.0-MASTER.pdf?rlkey=qj4d6rq5zfpwi11rvsh8tx12n&st=0bor6sq0&dl=0",
+        visa: {
+            category: "F1-STEM OPT",
+            expiry: "Valid till June 2029"
+        },
         socials: [
             {
                 name: "GitHub",

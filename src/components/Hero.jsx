@@ -24,6 +24,14 @@ const Hero = () => {
                         {hero.subheadline}
                     </p>
 
+                    {/* Visa Info */}
+                    <div className="flex items-center justify-center gap-2 mb-6 text-unc-white/60 text-sm bg-unc-white/5 py-1.5 px-4 rounded-full w-fit mx-auto border border-unc-white/10">
+                        {/* <Globe size={14} className="text-unc-secondary" /> */}
+                        <span>{hero.visa.category}</span>
+                        <span className="w-1 h-1 bg-unc-white/20 rounded-full"></span>
+                        <span className="text-unc-primary">{hero.visa.expiry}</span>
+                    </div>
+
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
                         <a
                             href={hero.ctaLink}
