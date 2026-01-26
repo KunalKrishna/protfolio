@@ -1,6 +1,6 @@
 import { Github, Linkedin, Mail, FileText } from "lucide-react";
 import leetCodeIcon from "../assets/favicon_LC.jpg";
-import { line } from "framer-motion/client";
+
 
 export const content = {
     hero: {
@@ -9,7 +9,7 @@ export const content = {
         subheadline: "I am a Full-Stack Java Developer with professional experience in agile environments. Currently an MS CS student at UNC Chapel Hill (Class of '26). Passionate about Backend Architecture, Cloud Computing and GenAI. Actively seeking full-time opportunities.",
         ctaText: "Download Resume",
         // ctaLink: "/Kunal_Krishna_Java_Backend_UNC_2026.pdf",
-        ctaLink: "https://github.com/KunalKrishna/protfolio/blob/main/public/Kunal_Krishna_Java_Backend_UNC_2026.pdf",
+        ctaLink: "https://www.dropbox.com/scl/fi/vunj4cgyncfezvynxiww6/KK-SDE-Resume-v2.0-MASTER.pdf?rlkey=qj4d6rq5zfpwi11rvsh8tx12n&st=0bor6sq0&dl=0",
         socials: [
             {
                 name: "GitHub",
@@ -122,13 +122,12 @@ export const content = {
     projects: [
         {
             title: "MatchWise – Intelligent & stable TA/RA allocation system for students & professors",
-            problem: "Helped Associate Chairs for Academic Affairs to automate the painstaking task of mathcing professors to students based on thier respectivepreferences.",
+            problem: "Helped Associate Chairs for Academic Affairs to automate the painstaking task of mathcing professors to students based on thier respective preferences.",
             tech: ["Python", "PuLP", "Firebase", "Firestore", "Authentication", "Cloud Functions", "Flutter"],
             features: [
-                "Dashboard for Admin to generate matches.",
-                "Dashboard for professors to view the students requesting Assistantship.",
-                "Dashboard for students to view the professors offering Assistantship.",
-                "Admin can generate the matches once professors and students have submitted their preferences."
+                "Dashboard for Admin, Professors and Students.",
+                "Admin can generate matches once professors and students have submitted their preferences.",
+                "Utilized Integer Linear Programming (ILP) to generate stable matches."
             ],
             contributions: [
                 "Requirements Elicitation, Algorithm Design and Coding.",
@@ -146,11 +145,10 @@ export const content = {
             problem: "An application to manage book exchange between students.",
             tech: ["Java", "Spring Boot", "Spring Security", "Angular", "MySQL"],
             features: [
-                "Donor and Lender Registration and Login.",
-                "Donor can add books to exchange.",
-                "Lender can search books by name, author, or category.",
-                "Lender can contact book owner to receive books.",
-                "Lender can rate and review books [future feature]."
+                "User(Donor and Lender) Registration and Login.",
+                "User can add, update, delete and search books to exchange.",
+                "Used Spring transactions to ensure data consistency.",
+                "User can rate and review books [future feature]."
             ],
             links: {
                 repo: "https://github.com/KunalKrishna/BookSwap-SpringBootApp",
