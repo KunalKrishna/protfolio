@@ -202,8 +202,7 @@ export const content = {
             url: "https://github.com/LeetCode-Feedback/LeetCode-Feedback/issues/34650",
             date: "2026-01-22",
             description: "Added a missing test case in LeetCode for problem 125. Valid Palindrome.",
-            image: "https://previews.dropbox.com/p/thumb/AC6qRHWE98njoWpXptlqljMnhvYwfMv3GH_wX0ShWmnU3O7rVStlBPNAvXhWIkCvY8MneZ_8Ddzhfp-fXHgKak7Aj53u2BljnEj_eJZexORSVwkLLuVKGC9T5YxByFyJEK5vlmltWADQn6SVgvw3IpQPPlTyncsk25ZCUhcrxgNPZREstCU_fijkK5J0f53FLB8sLisrZWbV3X6DaLM913I1-BlCwQ7LDG-DMjNlpR2jfuZY6FgOg0hWSIMEApLz0pmtC8XmCg8AcmRgLQ3aIPuwswk3wKeg4k84llpLVy9jkRmEupPSZ-jDAeSbXpfd8ykiGXAzD6PZZyd-5EGMkGkv/p.png?is_prewarmed=true"
-            // image: "https://previews.dropbox.com/p/thumb/AC696_bFNM5SiZAvpp74AOBgtM57HbAstkHRuQwCUW7gazSNylO4I53irG40wt_Zs_Vb4Ql-k6kTRCpVj4Iong4GWDafOSUexcEJPfmMDmgr1_bEyQKRucxTF8NyL0r7L35riGLSGAp7aT9zlxVErXPkeEAvFJBPvYFbSGdqZqjZ-GlIQ3H4wJbODdAZVHN_7RGcM6m8WsSGiquQIAxow3RuKqSQjHU4bXCEMHUKKtlmSAmAjmwaSXoDpUQJzJoqY77X8qLwBi7n71AoKYjBiiSBD4WkT02JmTxtZsdNYbquhOr4egAODY0S56AKqq08HpS5iWhWAvJ9z_n_E0x36xKC/p.png?is_prewarmed=true"
+            image: "https://previews.dropbox.com/p/thumb/AC6IWhfO7_QV4QXcRY8W253YkyGvouhMV_5whrWMwJo3Cnqo_jVUP7XzXtt03uN1wvEYC780LGTaqOiN1q_vVu5yNzGfDkXnxRspOlALYCihgDDSyLUQidAoqdeq_Uk19trNnI40hh1pR1vTEvPlsZloqmsZSn8Y5qDGj3DqjiUdqdibTcI7vMisZSp046adFEr_whBk_xKD6RiFXAgN7CSWL6KdqYHbjBtSVc9WXZQWwGPloZP1xbkdHm2YLSJuOoRLQswyi1PpUM7KuVzLi0DyJb2n1YoKT-MqZt8aP2kisTjjD4wutaeB7dCcYrPlNFm-6AA2nSsnWxy1FMZ6U1Sz/p.png?is_prewarmed=true"
         },
         {
             title: "Comparison in Java : Comparator vs Comparable",
