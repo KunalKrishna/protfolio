@@ -4,7 +4,7 @@ import leetCodeIcon from "../assets/favicon_LC.jpg";
 
 export const content = {
     hero: {
-        headline: "Spring Boot Developer | MSCS, UNC Chapel Hill",
+        headline: "Full stack Java Developer | Spring Boot Developer | MSCS, UNC Chapel Hill",
         // subheadline: "I am a Full-Stack Java Developer with a background in building scalable systems for both product and service-based companies. Currently pursuing my MS in Computer Science at UNC Chapel Hill (graduating May 2026), I combine years of industry experience with advanced academic research in algorithms and distributed systems",
         subheadline: "I am a Full-Stack Java Developer with professional experience in agile environments. Currently an MS CS student at UNC Chapel Hill (Class of '26). Passionate about Backend Architecture, Cloud Computing and GenAI. Actively seeking full-time opportunities.",
         ctaText: "Download Resume",
@@ -197,6 +197,14 @@ export const content = {
         }
     ],
     blog: [
+        {
+            title: "Missing Test Case in LeetCode",
+            url: "https://github.com/LeetCode-Feedback/LeetCode-Feedback/issues/34650",
+            date: "2026-01-22",
+            description: "Added a missing test case in LeetCode for problem 125. Valid Palindrome.",
+            image: "https://previews.dropbox.com/p/thumb/AC6qRHWE98njoWpXptlqljMnhvYwfMv3GH_wX0ShWmnU3O7rVStlBPNAvXhWIkCvY8MneZ_8Ddzhfp-fXHgKak7Aj53u2BljnEj_eJZexORSVwkLLuVKGC9T5YxByFyJEK5vlmltWADQn6SVgvw3IpQPPlTyncsk25ZCUhcrxgNPZREstCU_fijkK5J0f53FLB8sLisrZWbV3X6DaLM913I1-BlCwQ7LDG-DMjNlpR2jfuZY6FgOg0hWSIMEApLz0pmtC8XmCg8AcmRgLQ3aIPuwswk3wKeg4k84llpLVy9jkRmEupPSZ-jDAeSbXpfd8ykiGXAzD6PZZyd-5EGMkGkv/p.png?is_prewarmed=true"
+            // image: "https://previews.dropbox.com/p/thumb/AC696_bFNM5SiZAvpp74AOBgtM57HbAstkHRuQwCUW7gazSNylO4I53irG40wt_Zs_Vb4Ql-k6kTRCpVj4Iong4GWDafOSUexcEJPfmMDmgr1_bEyQKRucxTF8NyL0r7L35riGLSGAp7aT9zlxVErXPkeEAvFJBPvYFbSGdqZqjZ-GlIQ3H4wJbODdAZVHN_7RGcM6m8WsSGiquQIAxow3RuKqSQjHU4bXCEMHUKKtlmSAmAjmwaSXoDpUQJzJoqY77X8qLwBi7n71AoKYjBiiSBD4WkT02JmTxtZsdNYbquhOr4egAODY0S56AKqq08HpS5iWhWAvJ9z_n_E0x36xKC/p.png?is_prewarmed=true"
+        },
         {
             title: "Comparison in Java : Comparator vs Comparable",
             url: "https://compator-vs-comparable.hashnode.dev/comparison-in-java-comparator-vs-comparable",
