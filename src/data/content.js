@@ -1,5 +1,7 @@
 import { Github, Linkedin, Mail, FileText } from "lucide-react";
 import leetCodeIcon from "../assets/favicon_LC.jpg";
+import lcFixed from "../assets/blog_LeetcodeFixed.png";
+import monotonicStack from "../assets/blog_MonotonicStack.png";
 
 
 export const content = {
@@ -198,11 +200,19 @@ export const content = {
     ],
     blog: [
         {
+            title: "Monotonic Stack",
+            url: "https://the-dsa.hashnode.dev/monotonic-stack",
+            date: "2026-02-04",
+            description: "An intuitive approach to construct Monotonic stack.",
+            // image: "https://cdn.hashnode.com/res/hashnode/image/upload/v1770264991526/c9516795-c010-4fd2-8a8a-9802e1cef478.png"
+            image: monotonicStack
+        },
+        {
             title: "Missing Test Case in LeetCode",
             url: "https://github.com/LeetCode-Feedback/LeetCode-Feedback/issues/34650",
             date: "2026-01-22",
             description: "Added a missing test case in LeetCode for problem 125. Valid Palindrome.",
-            image: "https://previews.dropbox.com/p/thumb/AC6IWhfO7_QV4QXcRY8W253YkyGvouhMV_5whrWMwJo3Cnqo_jVUP7XzXtt03uN1wvEYC780LGTaqOiN1q_vVu5yNzGfDkXnxRspOlALYCihgDDSyLUQidAoqdeq_Uk19trNnI40hh1pR1vTEvPlsZloqmsZSn8Y5qDGj3DqjiUdqdibTcI7vMisZSp046adFEr_whBk_xKD6RiFXAgN7CSWL6KdqYHbjBtSVc9WXZQWwGPloZP1xbkdHm2YLSJuOoRLQswyi1PpUM7KuVzLi0DyJb2n1YoKT-MqZt8aP2kisTjjD4wutaeB7dCcYrPlNFm-6AA2nSsnWxy1FMZ6U1Sz/p.png?is_prewarmed=true"
+            image: lcFixed
         },
         {
             title: "Comparison in Java : Comparator vs Comparable",
