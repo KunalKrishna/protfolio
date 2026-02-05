@@ -208,7 +208,7 @@ export const content = {
             image: monotonicStack
         },
         {
-            title: "Missing Test Case in LeetCode",
+            title: "LeetCode Bounty +100 points",
             url: "https://github.com/LeetCode-Feedback/LeetCode-Feedback/issues/34650",
             date: "2026-01-22",
             description: "Added a missing test case in LeetCode for problem 125. Valid Palindrome.",
